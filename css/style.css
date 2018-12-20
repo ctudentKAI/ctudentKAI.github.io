@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	font-family: 'Noto Serif TC', serif;
+}
+.logo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	min-width: 100%
+	
+}
+
+.nav{
+	width: 960px;
+	margin: 0 auto;
+}
+nav:before {
+	content: '';
+	display: block;
+	height: 75px;
+	width: 100%;
+	background: #000;
+	position: absolute;
+	left:0;
+	z-index: -1;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 75px;
+	display: flex;
+	justify-content: center;
+
+}
+ul li {
+	float:left;
+	display: flex;
+	justify-content: center;
+}
+ul li a {
+	font-family: 'Raleway', sans-serif;
+	color:#fff;
+	display: flex;
+	height: 75px;
+	padding: 0px 96px;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 75px;
+	justify-content: center;
+
+}
+ul li a:hover {
+	background: #757575;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+
+}
+.text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+	line-height: 35px;
+	position: absolute;
+	background-position: center 100%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 17%;
+
+}
